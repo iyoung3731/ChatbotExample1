@@ -19,11 +19,6 @@ public class MagpieRunner2
 		Scanner in = new Scanner (System.in);
 		String statement = in.nextLine();
 
-		statement = statement.trim();
-		if (statement.length() == 0){
-			response = "Say something, please.";
-		}
-
 		while (!statement.equals("Bye"))
 		{
 			System.out.println (maggie.getResponse(statement));
